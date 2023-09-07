@@ -39,7 +39,7 @@ def search(request):
             'entries': matching
         })
 
-    return render(request, "encyclopedia/index.html")
+    
     
 def new_page(request):
     if request.method =="POST":
